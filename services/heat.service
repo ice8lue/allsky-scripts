@@ -1,0 +1,8 @@
+[Unit]
+Description=Heater Service to keep the dome dew free
+
+[Service]
+ExecStart=/home/pi/allsky-scripts/scripts/heat.sh
+
+[Install]
+WantedBy=multi-user.target
